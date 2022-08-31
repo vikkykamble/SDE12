@@ -1,0 +1,38 @@
+.main{
+    height: 700px;
+    width: 1440px;
+    margin: auto;
+    padding: 140px;
+    text-align: center;
+    background-color:cornflowerblue;
+    color: white;
+}
+
+.header{
+    height: 100px;
+    width: 1440px;
+    margin-bottom: 10px;
+    border: solid white;
+    line-height: 100px;
+   
+}
+
+.nav{
+    height: 590px;
+    width: 400px;
+    margin-right: 10px;
+    border: solid white;
+    float: left;
+    line-height: 590px;
+    
+}
+
+.section{
+    height: 590px;
+    width: 1010px;
+    border: solid white;
+    float: right;
+    line-height: 590px;
+   
+}
+    

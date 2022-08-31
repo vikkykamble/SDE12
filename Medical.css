@@ -1,0 +1,57 @@
+.main{
+    height: 1200px;
+    width: 1000px;
+    background-color:burlywood;
+    }
+    .header{
+        height: 200px;
+        width: 1000px;
+        background-color: cadetblue;
+       
+    }
+    .logo{
+       height: 200px;
+       width: 200px;
+        float: left;
+    }
+    .social{
+        height:100px;
+        width: 800px;
+        background-color: beige;
+        float: left;
+        color: blue;
+        
+    }
+    .navbar{
+        height:100px;
+        width: 800px;
+        background-color: bisque;
+        float: left;
+        text-align: center;
+        
+   }
+ .navbar ul li{
+float: left;
+display: block;
+width: 150px;
+ }
+ navbar:hover{
+    background-color: chartreuse;
+    transition-duration: 0.3s;
+ }
+ .container{
+    
+    float: left;
+   
+ }
+ .carousel{
+   
+    float: left;
+ }
+ .footer{
+   height: 100px;
+   width: 800px;
+    
+   line-height: 100px;
+    color: darkblue;
+ }

@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 100vh;
+    background-color: white;
+}
+.india{
+    display: flex;
+    text-align: center;
+    }
+  .first{
+    height: 160px;
+    width: 160px;
+    background-color: orange;
+  }
+  .second{
+    height: 160px;
+    width: 160px;
+    background-color: white;
+  }
+  .third{
+    height: 160px;
+    width: 160px;
+    background-color: green;
+  }

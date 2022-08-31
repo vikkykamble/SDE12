@@ -1,0 +1,53 @@
+/* .text{
+  
+text-align: center;
+
+
+} */
+.first{
+    position: relative;
+    top: 500px;
+    left: 300px;
+    color: red;
+}
+.main{
+    height: 690px;
+    width: 980px;
+    margin: auto;
+    padding-top: 100px;
+   
+}
+.header{
+    height: 140px;
+     width: 980px;
+     background-color: darkgreen;
+     margin-bottom: 15px;
+     text-align: center;
+     line-height: 140px;
+     
+ }
+ .sidebar{
+     height: 450px;
+     width: 270px;
+     background-color: darkgreen;
+     margin-top: 15px;
+     margin-right: 15px;
+     margin-bottom: 15px;
+     float: left;
+     text-align: center;
+     line-height: 450px;
+     
+  }
+ 
+.content{
+    height: 450px;
+    width: 680px;
+    background-color: darkgreen; 
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    float: left;
+    text-align: center;
+    line-height: 450px;
+}
+    

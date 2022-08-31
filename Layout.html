@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <link rel="stylesheet" href="Layout.css">
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+        <div class="logo"> 
+        <img src="Images\sbi logo.webp" height="150px" width="200px" alt="SBI">
+       </div>
+        <div class="social">
+            <img src="Images\STATE-BANK-OF-INDIA.jpg"  height="150px" width="550px" alt="sbi">
+        </div>
+         <div class="menu">
+        </div>
+    </div>
+        <div class="container">
+            <center><h1>Student Application Form </h1></center>
+    <Form> <div class="vikas">
+        <!-- Personal datails started -->
+Enter Your Name: <input type="text" placeholder="Enter Your Name"><br>
+Your Father Name: <input type="text" placeholder="Enter Your Father Name"><br>
+Enter Last Name: <input type="text" placeholder="Enter Your Last Name"><br>
+Email Id: <input type="email" placeholder="Enter Your Email Id"><br>
+Mobile No.: <input type="number" placeholder="Enter Your Mobile Number"><br>
+Date Of Birth: <input type="date"><br>
+Photo: <input type="file"><br>
+<h2>Gender:</h2>  
+Male<input type="radio"> 
+Female<input type="radio">
+Other<input type="radio"> <br>
+<!-- Personal details Ended -->
+<!-- Educational Qualification Started -->
+ <h2>Graduation:</h2> 
+SSC <input type="checkbox">
+HSC <input type="checkbox">
+Graduation <input type="checkbox"> 
+<!-- Educational Qualification Ended -->
+<!-- country Started -->
+ <label for="country"> <h3> Country:</h3></label><br>
+<select id="country" name="countrylist" form="countryform">
+  <option value="India">India</option>
+  <option value="Pakistan">Pakistan</option>
+  <option value="America">America</option>
+  <option value="China">China</option>
+</select> <br>
+<!-- country Ended -->
+<!-- State Started -->
+<label for="State"><h3>State:</h3> </label><br> 
+<select id="State" name="statelist" form="stateform">
+  <option value="MH">MH</option>
+  <option value="TN">TN</option>
+  <option value="UP">UP</option>
+  <option value="MP">MP</option>
+</select> <br>
+<!--State Ended -->
+<!-- Town Started -->
+<label for="Town"><h3>Choose a Town:</h3></label>
+<select id="Town" name="Townlist" form="Townform">
+  <option value="Nagpur">Nagpur</option>
+  <option value="Kamthee">Kamthee</option>
+  <option value="Hingna">Hingna</option>
+  <option value="Khamla">Khamla</option>
+</select> <br><br>
+<!-- Town Ended -->
+<button class="b1" type="reset" value="Reset">Reset</button>
+<button class="b2" type="submit" value="Submit">Submit</button>
+</div></Form>
+        </div>
+        <div class="footer">
+           
+            
+        </div>
+    </div>
+   
+   
+</body>
+</html> 
